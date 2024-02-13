@@ -1,0 +1,22 @@
+17:53:30 **** Incremental Build of configuration Nios II for project task_4 ****
+make all 
+Info: Building ../task_4_bsp/
+D:/Imperial_College/DSD/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../task_4_bsp/
+[BSP build complete]
+Info: Compiling task_4.c to obj/default/task_4.o
+nios2-elf-gcc -xc -MP -MMD -c -I../task_4_bsp//HAL/inc -I../task_4_bsp/ -I../task_4_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/task_4.o task_4.c
+task_4.c: In function 'main':
+task_4.c:71:8: warning: unused variable 'buf' [-Wunused-variable]
+   char buf[50];
+        ^
+Info: Linking task_4.elf
+nios2-elf-g++  -T'../task_4_bsp//linker.x' -msys-crt0='../task_4_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../task_4_bsp/   -Wl,-Map=task_4.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o task_4.elf obj/default/task_4.o -lm -msys-lib=m
+nios2-elf-insert task_4.elf --thread_model hal --cpu_name cpu --qsys true --simulation_enabled false --id 0 --sidp 0x1001030 --timestamp 1707778068 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name system --quartus_project_dir "D:/Imperial_College/DSD/DSD/DE1-SoC_sdram" --jdi D:/Imperial_College/DSD/DSD/DE1-SoC_sdram/software/task_4_bsp/../../hello_world.jdi --sopcinfo D:/Imperial_College/DSD/DSD/DE1-SoC_sdram/software/task_4_bsp/../../system.sopcinfo
+Info: (task_4.elf) 85 KBytes program size (code + initialized data).
+Info:              8099 KBytes free for stack + heap.
+Info: Creating task_4.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source task_4.elf >task_4.objdump
+[task_4 build complete]
+
+17:53:33 Build Finished (took 3s.378ms)
+
