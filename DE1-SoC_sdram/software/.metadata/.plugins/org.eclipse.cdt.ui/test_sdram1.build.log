@@ -1,6 +1,0 @@
-17:54:36 **** Build of configuration Nios II for project test_sdram1 ****
-make all 
-make: *** No rule to make target `all'.  Stop.
-
-17:54:36 Build Finished (took 108ms)
-

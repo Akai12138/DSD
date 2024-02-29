@@ -1,6 +1,0 @@
-23:05:29 **** Clean-only build of configuration Nios II for project tule_bsp ****
-make clean 
-[BSP clean complete]
-
-23:05:31 Build Finished (took 1s.494ms)
-

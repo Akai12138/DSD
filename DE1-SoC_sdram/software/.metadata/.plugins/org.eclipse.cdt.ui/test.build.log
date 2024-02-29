@@ -1,6 +1,0 @@
-16:46:42 **** Clean-only build of configuration Nios II for project test ****
-make clean 
-make: *** No rule to make target `clean'.  Stop.
-
-16:46:42 Build Finished (took 101ms)
-

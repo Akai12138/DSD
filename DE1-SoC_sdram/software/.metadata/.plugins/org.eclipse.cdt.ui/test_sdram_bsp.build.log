@@ -1,6 +1,0 @@
-18:03:45 **** Clean-only build of configuration Nios II for project test_sdram_bsp ****
-make clean 
-[BSP clean complete]
-
-18:03:46 Build Finished (took 339ms)
-

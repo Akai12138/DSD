@@ -1,9 +1,0 @@
-23:13:52 **** Incremental Build of configuration Nios II for project tule ****
-make all 
-Info: Building ../tule_bsp/
-D:/Imperial_College/DSD/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../tule_bsp/
-[BSP build complete]
-[tule build complete]
-
-23:13:53 Build Finished (took 915ms)
-
